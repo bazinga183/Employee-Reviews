@@ -7,7 +7,7 @@ st.set_page_config(page_title='Glassdoor Reviews',
                    layout='wide'
                   )
 
-# st.image('resources\APRO_Logo-A.png', width=100, output_format='PNG')
+st.image('.\resources\APRO_Logo-A.png', width=100, output_format='PNG')
 st.title('RTO Glassdoor Reviews ')
 
 df = pd.read_excel(
