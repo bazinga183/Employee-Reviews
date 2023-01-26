@@ -11,10 +11,10 @@ st.image('Resources\APRO_Logo-A.png', width=100, output_format='PNG')
 st.title('RTO Glassdoor Reviews ')
 
 df = pd.read_excel(
-    io='Data\ALL GS Data.xlsx',
+    io='ALL GS Data.xlsx',
     engine='openpyxl',
     skiprows=0,
-    usecols='C:T',
+    usecols='B:V',
     nrows=4094
 )
 
