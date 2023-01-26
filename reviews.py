@@ -11,7 +11,7 @@ st.image('resources/APRO_Logo-A.png', width=100, output_format='PNG')
 st.title('RTO Glassdoor Reviews ')
 
 df = pd.read_excel(
-    io='/app/employee-reviews/ALL GS Data.xlsx',
+    io='bazinga183/employee-reviews/main/ALL GS Data.xlsx',
     engine='openpyxl',
     skiprows=0,
     usecols='B:V',
